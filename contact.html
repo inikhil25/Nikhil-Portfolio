@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Contact</title>
+    <link rel="stylesheet" href="stylecontact.css">
+</head>
+<body>
+    <div class="contact-container">
+        <ul class="navlist">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+        </ul>
+        <div class="contact-content">
+            <h1>Contact Me</h1>
+            <div class="contact-details">
+                <p>If you have any questions or would like to get in touch:</p>
+                <ul>
+                    <li><strong>Email:</strong> npri2504@gmail.com</li>
+                    <li><strong>Phone:</strong> +91 9336613883</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nikhil-pal-37a33a242/">Nikhil Pal</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/inikhil25">inikhil25</a></li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
